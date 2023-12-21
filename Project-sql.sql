@@ -69,20 +69,20 @@ FOREIGN KEY(product_id)
 
 ## Importing the Data
 
-LOAD DATA LOCAL INFILE '/Users/mohamad/Desktop/SQL/Project/aisles.csv' INTO TABLE aisles
+LOAD DATA LOCAL INFILE 'C:/Users/solmaz/Downloads/aisles.csv' INTO TABLE aisles
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/mohamad/Desktop/SQL/Project/departments.csv' INTO TABLE departments
+LOAD DATA LOCAL INFILE 'C:/Users/solmaz/Downloads/departments.csv' INTO TABLE departments
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 
-LOAD DATA LOCAL INFILE '/Users/mohamad/Desktop/SQL/Project/orders_small_version.csv' INTO TABLE orders
+LOAD DATA LOCAL INFILE 'C:/Users/solmaz/Downloads/orders_small_version.csv' INTO TABLE orders
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/mohamad/Desktop/SQL/Project/products.csv' INTO TABLE product
+LOAD DATA LOCAL INFILE 'C:/Users/solmaz/Downloads/products.csv' INTO TABLE product
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/mohamad/Desktop/SQL/Project/order_products.csv' INTO TABLE order_product
+LOAD DATA LOCAL INFILE 'C:/Users/solmaz/Downloads/order_products.csv' INTO TABLE order_product
 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 # Top 10 Products Sales For Each Day of the Week
